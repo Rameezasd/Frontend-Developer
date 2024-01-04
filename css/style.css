@@ -1,0 +1,456 @@
+header {
+width: 100%;
+height: 800px;
+background: url(../image/interior-gdbad322fb_1920.jpg);
+background-size: cover;
+position: relative;
+}
+
+header ul {
+    float: right;
+}
+header ul li {
+float: left;
+list-style: none;
+text-align: center;
+width: 130px;
+height: 100px;
+line-height: 100px;
+}
+header ul li a {
+text-decoration: none;
+display: block;
+font-family: sans-serif;
+text-transform: uppercase;
+font-weight: bold;
+}
+header .logo {
+float: left;
+}
+header .logo img {
+width: 150px;
+margin-top: 25px;
+display: block;
+}
+header .box {
+width: 500px;
+position: absolute;
+top: 420px;
+left: 420px;
+text-align: center;
+}
+header .box h1 {
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+}
+span.underline {
+width: 100px;
+position: relative;
+}
+span.underline: after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+background: white;
+width: 100%;
+height: 3px;
+}
+section#aboutu {
+margin-top: 25px;
+width: 100%;
+height: 500px;
+background: url(../image/chairs-g90f89e3e1_1920.jpg);
+background-size: cover;
+position: relative;
+}
+
+section#aboutu .box1 {
+width: 100%;
+height: 300px;
+position: absolute;
+margin-top: 100px;
+padding-left: 230px;
+padding-right: 230px;
+}
+section#aboutu h3 {
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+color: brown;
+}
+section#aboutu h5 {
+color: lightgreen;
+text-align: center;
+font-size: 26px;
+margin-top: -15px;
+font-family: sans-serif;
+}
+section#aboutu p {
+margin: 26px;
+text-align: center;
+color: white;
+background-color: black;
+}
+section#aboutu a {
+display: block;
+width: 150px;
+line-height: 35.5px;
+margin: 0 auto;
+text-align: center;
+border: 3px solid brown;
+text-transform: uppercase;
+font-family: sans-serif;
+color: brown;
+font-weight: bold;
+background-color: white;
+}
+section#image {
+margin-top: 25px;
+width: 100%;
+height: 500px;
+background: url(../image/breakfast-g3cdceb749_1920.jpg);
+background-size: cover;
+position: relative;
+background-position: center center;
+}
+section#image h1 {
+color: white;
+position: absolute;
+top: 160px;
+left: 31%;
+text-transform: uppercase;
+font-weight: bold;
+width: 500px;
+height: 90px;
+line-height: 90px;
+border: 3px solid black;
+text-align: center;
+background-color: purple;
+}
+span.underline1 {
+width: 100px;
+position: relative;
+}
+span.underline1:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+background: white;
+width: 190px;
+height: 3px;
+}
+section#socialmedia {
+width: 100%;
+height: 350px;
+margin-top: 25px;
+margin-bottom: 26px;
+background: url(../image/table-g4230d19a9_1920.jpg);
+background-size: cover;
+}
+section#socialmedia .box3 {
+width: 700px;
+margin: 100px auto;
+padding: 20px;
+}
+section#socialmedia h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#socialmedia h5 {
+color: lightgreen;
+text-align: center;
+font-family: sans-serif;
+font-size: 26px;
+margin-top: -3px;
+}
+section#socialmedia p {
+color: darkslategray;
+text-align: center;
+margin: 26px;
+background-color: white;
+font-weight: bold;
+}
+section#socialmedia .box3 {
+margin: 0 auto;
+text-align: center;
+}
+section#socialmedia .box3 a {
+width: 51px;
+height: 51px;
+display: inline-block;
+text-align: center;
+}
+section#socialmedia .box3 a:nth-child(1) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: blue;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(2) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: black;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(3) {
+border: 1px solid red;
+background-color: red;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia a i {
+line-height: 51px;
+font-size: 34.1px;
+}
+section#menus {
+width: 100%;
+height: 390px;
+background: url(../image/agriculture-color-cooking-255501.jpg);
+background-size: cover;
+position: relative;
+}
+section#menus .box5 {
+width: 73.5%;
+height: 120px;
+position: absolute;
+top: 34%;
+left: 26.5%;
+background: white;
+padding: 15px 0 15px 15px;
+}
+section#menus .menusdiscover {
+width: 100%;
+height: 87px;
+box-sizing: border-box;
+border: 7px solid brown;
+padding: 15px;
+}
+section#menus .menusdiscover h3 {
+padding: 0 0 0 42px;
+margin-top: -3px;
+text-transform: uppercase;
+color: brown;
+font-weight: bold;
+}
+section#menus .menusdiscover h5 {
+padding: 0 0 0 42px;
+margin-top: -10.5px;
+color: lightgreen;
+font-family: sans-serif;
+font-size: 18px;
+}
+section#ingredients {
+width: 100%;
+height: 390px;
+position: relative;
+}
+section#ingredients .mouse {
+width: 550px;
+height: 381px;
+position: absolute;
+right: 61%;
+background: url(../image/spices-ge2f6461be_1920.jpg);
+background-size: cover;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+section#ingredients .box7 {
+width: 700px;
+height: 350px;
+position: absolute;
+top: 70px;
+left: 590px;
+}
+section#ingredients .box7 h3 {
+color: brown;
+text-transform: uppercase;
+font-size: 42px;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#ingredients .box7 h5 {
+color: green;
+font-size: 34px;
+margin-top: -10.5px;
+}
+section#ingredients .box7 p {
+margin: 26px 26px 26px 0;
+}
+section#gllery {
+width: 100%;
+height: 1200px;
+}
+
+section#gallery h3 {
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-size: 42px;
+font-weight: bold;
+margin-top: 57px;
+color: brown;
+}
+section#gallery h5 {
+text-align: center;
+font-family: sans-serif;
+font-size: 35.5px;
+margin-top: -10px;
+margin-left: 0;
+margin-right: 10px;
+color: lightgreen;
+}
+section#gallery .board1 {
+width: 100%;
+height: 650px;
+margin-left: 25px;
+}
+section#galeery .board2 {
+width: 100%;
+height: 650px;
+}
+section#gallery .board2 img {
+width: 32%;
+height: 300px;
+}
+section#gallery .board3 {
+width: 100%;
+height: 650px;
+}
+section#gallery .board3 img {
+width: 32%;
+height: 300px;
+margin-bottom: 26px;
+margin-top: 31px;
+}
+section#contacts {
+width: 100%;
+height: 900px;
+position: relative;
+}                                                      
+section#contacts h3 {
+color: brown;
+text-align: center;
+font-size: 42px;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 57px;
+}
+section#contacts h5 {
+color: lightgreen;
+text-align: center;
+font-size: 34.1px;
+font-family: sans-serif;
+margin-top: -10px;
+}
+section#contacts .bat {
+width: 100%;
+height: 700px;
+background-color: lavender;
+}
+section#contacts .bat p {
+width: 500px;
+position: absolute;
+top: 500px;
+left: 100px;
+border: 8px solid black;
+padding: 20px;
+font-weight: bold;
+background-color: white;
+}
+section#contacts .bat form {
+width: 550px;
+height: 500px;
+position: absolute;
+top: 170px;
+background-color: cadetblue;
+left: 700px;
+padding-left: 75px;
+padding-top: 25px;
+padding-bottom: 50px;
+}
+section#contacts .bat form input[value='Submit'] {
+margin-left: 170px;
+margin-top: 20px;
+font-weight: bold;
+}
+section#contacts .bat form label[for='fname'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='lname'] {
+margin-left: 140px;
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='email'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='message'] {
+color: white;
+font-weight: bold;
+margin-right: 5px;
+}
+section#contacts .bat form input[name='lname'] {
+margin-left: 25px;
+}
+section#contacts .bat form input[name='email'] {
+width: 86%;
+}
+section#contacts .bat form textarea[type='message'] {
+width: 86%;
+height: 125px;
+}
+section#googlemap {
+width: 100%;
+height: 750px;
+position: relative;                
+}
+section#googlemap h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-bottom: 20px;
+font-size: 39px;
+opacity: 1;
+}
+section#googlemap .top {
+width: 100%;
+height: 680px;
+background: url(../image/google@2x.png);
+background-size: cover;
+background-position: center center;
+margin-bottom: 8.1px
+}
+footer {
+margin-top: 3px;
+margin-left: 0.5px;
+background-color: brown;
+}
+footer h3 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+}
+footer h5 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+padding: 10px 0 0 0;
+display: block;
+}                                        
