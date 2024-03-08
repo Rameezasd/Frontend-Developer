@@ -1,0 +1,1139 @@
+#popups {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 750px;
+background-color: black;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.bat {
+   padding: 14px 10px;
+   line-height: 1.5;
+}
+
+.popup {
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+top: 50%;
+left: 50%;
+margin-top: -300px;
+margin-left: -300px;
+}
+.popup-images {
+width: 600px;
+height: 750px;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+
+}
+.popup-images img{
+width: 50%;
+height: 250px;
+display: block;
+position: relative;
+top: 132px;
+left: 123px;
+
+}
+.popup-images h3 {
+width: 500px;
+height: 250px;
+position: relative;
+top: 157px;
+left: 3px;
+font-weight: bold;
+color: white;
+}
+.popup-images a:nth-child(1) {
+text-decoration: none;
+position: absolute;
+top: 20%;;
+left: 73%;
+color: lightgreen;
+font-weight: bold;
+
+}
+
+.popup-images img:hover{
+cursor: pointer;
+}
+
+.menuItem {
+display: none;
+}
+
+.burger {
+display: none;
+}
+
+.closeIcon {
+display: none;
+}
+
+.menus {
+display: none;
+}
+
+.showMenus{
+display: none;
+}
+
+header {
+width: 100%;
+height: 800px;
+background: url(../image/interior-gdbad322fb_1920.jpg);
+background-size: cover;
+position: relative;
+}
+header .digital {
+width: 100%;
+height: 100px;
+background-color: white;
+position: fixed;
+line-height: 57px;
+}
+header ul {
+    float: right;
+    
+}
+header ul li {
+float: left;
+list-style: none;
+text-align: center;
+width: 125px;
+height: 100px;
+line-height: 100px;
+
+}
+header ul li a {
+text-decoration: none;
+display: block;
+font-family: sans-serif;
+text-transform: uppercase;
+font-weight: 800;
+color: lightgreen;
+position: fixed;
+}
+header .logo {
+float: left;
+
+}
+header .logo img {
+width: 	250px;
+height: 50px;
+margin-top: 25px;
+margin-left: 23px;
+display: block;
+position: fixed;
+}
+header .box {
+width: 500px;
+position: absolute;
+top: 420px;
+left: 420px;
+text-align: center;
+}
+header .box h1 {
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+}
+span.underline {
+width: 100px;
+position: relative;
+}
+span.underline:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+background: white;
+width: 100%;
+height: 7px;
+}
+section#aboutu {
+margin-top: 25px;
+width: 100%;
+height: 500px;
+background: url(../image/chairs-g90f89e3e1_1920.jpg);
+background-size: cover;
+}
+
+section#aboutu .box1 {
+width: 100%;
+height: 300px;
+position: absolute;
+margin-top: 100px;
+padding-left: 230px;
+padding-right: 230px;
+}
+section#aboutu h3 {
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+color: brown;
+}
+section#aboutu h5 {
+color: lightgreen;
+text-align: center;
+font-size: 26px;
+margin-top: -15px;
+font-family: sans-serif;
+}
+section#aboutu p {
+margin: 26px;
+text-align: center;
+color: white;
+background-color: black;
+}
+section#aboutu a {
+display: block;
+width: 150px;
+line-height: 35.5px;
+margin: 0 auto;
+text-align: center;
+border: 3px solid brown;
+text-transform: uppercase;
+font-family: sans-serif;
+color: brown;
+font-weight: bold;
+background-color: white;
+}
+section#image {
+margin-top: 25px;
+width: 100%;
+height: 500px;
+background: url(../image/breakfast-g3cdceb749_1920.jpg);
+background-size: cover;
+
+background-position: center center;
+}
+section#image h1 {
+color: white;
+position: relative;
+top: 160px;
+left: 31%;
+text-transform: uppercase;
+font-weight: bold;
+width: 500px;
+height: 90px;
+line-height: 90px;
+border: 3px solid black;
+text-align: center;
+background-color: purple;
+}
+span.underline1 {
+width: 100px;
+position: relative;
+}
+span.underline1:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+background: white;
+width: 190px;
+height: 3px;
+}
+section#socialmedia {
+width: 100%;
+height: 350px;
+margin-top: 25px;
+margin-bottom: 26px;
+background: url(../image/table-g4230d19a9_1920.jpg);
+background-size: cover;
+}
+section#socialmedia .box3 {
+width: 700px;
+margin: 100px auto;
+padding: 20px;
+}
+section#socialmedia h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#socialmedia h5 {
+color: lightgreen;
+text-align: center;
+font-family: sans-serif;
+font-size: 26px;
+margin-top: -3px;
+}
+section#socialmedia p {
+color: darkslategray;
+text-align: center;
+margin: 26px;
+background-color: white;
+font-weight: bold;
+}
+section#socialmedia .box3 {
+margin: 0 auto;
+text-align: center;
+}
+section#socialmedia .box3 a {
+width: 51px;
+height: 51px;
+display: inline-block;
+text-align: center;
+}
+section#socialmedia .box3 a:nth-child(1) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: blue;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(2) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: black;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(3) {
+border: 1px solid red;
+background-color: red;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia a i {
+line-height: 51px;
+font-size: 34.1px;
+}
+section#menus {
+width: 100%;
+height: 390px;
+background: url(../image/agriculture-color-cooking-255501.jpg);
+background-size: cover;
+background-position: center center;
+}
+section#menus .box5 {
+width: 73.5%;
+height: 120px;
+position: relative;
+top: 34%;
+left: 26.5%;
+background: white;
+padding: 15px 0 15px 15px;
+}
+section#menus .menusdiscover {
+width: 100%;
+height: 87px;
+box-sizing: border-box;
+border: 7px solid brown;
+padding: 15px;
+}
+section#menus .menusdiscover h3 {
+padding: 0 0 0 42px;
+margin-top: -3px;
+text-transform: uppercase;
+color: brown;
+font-weight: bold;
+}
+section#menus .menusdiscover h5 {
+padding: 0 0 0 42px;
+margin-top: -10.5px;
+color: lightgreen;
+font-family: sans-serif;
+font-size: 18px;
+}
+section#ingredients {
+width: 100%;
+height: 390px;
+position: relative;
+}
+section#ingredients .mouse {
+width: 550px;
+height: 381px;
+position: absolute;
+right: 61%;
+background: url(../image/spices-ge2f6461be_1920.jpg);
+background-size: cover;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+section#ingredients .box7 {
+width: 700px;
+height: 350px;
+position: absolute;
+top: 70px;
+left: 590px;
+}
+section#ingredients .box7 h3 {
+color: brown;
+text-transform: uppercase;
+font-size: 42px;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#ingredients .box7 h5 {
+color: green;
+font-size: 34px;
+margin-top: -10.5px;
+}
+section#ingredients .box7 p {
+margin: 26px 26px 26px 0;
+}
+section#gllery {
+width: 100%;
+height: 1200px;
+}
+
+section#gallery h3 {
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-size: 42px;
+font-weight: bold;
+margin-top: 57px;
+color: brown;
+}
+section#gallery h5 {
+text-align: center;
+font-family: sans-serif;
+font-size: 35.5px;
+margin-top: -10px;
+margin-left: 0;
+margin-right: 10px;
+color: lightgreen;
+}
+section#gallery .board1 {
+width: 100%;
+height: 650px;
+margin-left: 25px;
+}
+section#gallery .board2 {
+width: 100%;
+height: 300px;
+}
+section#gallery .board2 img {
+width: 32%;
+height: 300px;
+}
+section#gallery .board3 {
+width: 100%;
+height: 300px;
+}
+section#gallery .board3 img {
+width: 32%;
+height: 300px;
+margin-bottom: 26px;
+margin-top: 31px;
+}
+section#contacts {
+width: 100%;
+height: 900px;
+
+}                                                      
+section#contacts h3 {
+color: brown;
+text-align: center;
+font-size: 42px;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 57px;
+}
+section#contacts h5 {
+color: lightgreen;
+text-align: center;
+font-size: 34.1px;
+font-family: sans-serif;
+margin-top: -10px;
+}
+section#contacts .bat {
+width: 100%;
+height: 700px;
+background-color: lavender;
+}
+section#contacts .bat p {
+width: 500px;
+position: relative;
+top: 500px;
+left: 100px;
+border: 8px solid black;
+padding: 20px;
+font-weight: bold;
+background-color: white;
+}
+section#contacts .bat form {
+width: 550px;
+height: 500px;
+position: relative;
+top: 5px;
+left:700px;
+background-color: cadetblue;
+
+padding-left: 75px;
+padding-top: 25px;
+padding-bottom: 50px;
+}
+section#contacts .bat form input[value='Submit'] {
+margin-left: 170px;
+margin-top: 20px;
+font-weight: bold;
+}
+section#contacts .bat form label[for='fname'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='lname'] {
+margin-left: 140px;
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='email'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='message'] {
+color: white;
+font-weight: bold;
+margin-right: 5px;
+}
+section#contacts .bat form input[name='lname'] {
+margin-left: 25px;
+}
+section#contacts .bat form input[name='email'] {
+width: 86%;
+}
+section#contacts .bat form textarea[type='message'] {
+width: 86%;
+height: 125px;
+}
+section#googlemap {
+width: 100%;
+height: 750px;
+           
+}
+section#googlemap h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-bottom: 20px;
+font-size: 39px;
+opacity: 1;
+}
+section#googlemap .top {
+width: 100%;
+height: 680px;
+background: url(../image/google@2x.png);
+background-size: cover;
+background-position: center center;
+margin-bottom: 8.1px
+}
+footer {
+margin-top: 3px;
+margin-left: 0.5px;
+background-color: brown;
+}
+footer h3 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+}
+footer h5 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+padding: 10px 0 0 0;
+display: block;
+}  
+
+@media screen and (max-width: 900px)  {
+
+header {
+width: 100%;
+height: 597px;
+background: url(../image/interior-gdbad322fb_1920.jpg) no-repeat center; 
+background-size: cover;
+position: relative;
+}
+nav {
+display: none;
+}
+header .logo {
+float: left;
+}
+header .logo img {
+width: 175px;
+margin-top: 25px;
+display: block;
+}
+header .box {
+width: 370px;
+position: absolute;
+top: 170px;
+left: 1px;
+text-align: center;
+}
+header .box h1 {
+text-transform: uppercase;
+color: white;
+font-weight: bold;
+font-family: sans-serif;
+font-size: 25px;
+}
+span.underline {
+width: 100px;
+position: relative;
+}
+span.underline:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -7px;
+background: white;
+width: 100%;
+height: 7px;
+}
+section#aboutu {
+
+width: 100%;
+height: 597px;
+background: url(../image/chairs-g90f89e3e1_1920.jpg);
+background-size: cover;
+background-position: center center;
+position: relative;
+}
+section#aboutu .box1 {
+width: 823px;
+height: 500px;
+position: absolute;
+top: -25px;
+left: -237px;
+}
+section#aboutu .box1 h3 {
+text-transform: uppercase;
+font-family: sans-serif;
+text-align: center;
+font-weight: bold;
+color: brown;
+font-size: 25px;
+}
+section#aboutu .box1 h5 {
+color: lightgreen;
+text-align: center;
+
+}
+section#aboutu .box1 p {
+text-align: justify;
+color: white;
+background-color: black;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 23px;
+padding-right: 23px;
+font-family: sans-serif;
+}
+section#aboutu .box1 a {
+display: block;
+width: 175px;
+border: 3px solid brown;
+text-transform: uppercase;
+font-family: sans-serif;
+color: brown;
+font-weight: bold;
+background-color: white;
+border-radius: 25px;
+}
+section#image {
+margin-top: 25px;
+width: 100%;
+height: 597px;
+background: url(../image/breakfast-g3cdceb749_1920.jpg) no-repeat center;
+background-size: cover;
+position: relative;
+
+}
+section#image h1 {
+color: white;
+position: absolute;
+top: 160px;
+left: 7%;
+text-transform: uppercase;
+font-weight: bold;
+width: 316px;
+height: 70px;
+line-height: 50px;
+border: 3px solid black;
+text-align: center;
+background-color: purple;
+font-size: 25px;
+}
+span.underline1 {
+width: 100px;
+position: relative;
+}
+span.underline1:after {
+content: "";
+position: absolute;
+left: 0;
+bottom: -3px;
+background: white;
+width: 190px;
+height: 3px;
+}
+section#socialmedia {
+width: 100%;
+height: 597px;
+margin-top: 25px;
+margin-bottom: 25px;
+background: url(../image/table-g4230d19a9_1920.jpg) no-repeat center;
+background-size: cover;
+}
+section#socialmedia .box3 {
+width: 395px;
+padding-top: 37px;
+margin-left: -16px;
+
+}
+section#socialmedia h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#socialmedia h5 {
+color: lightgreen;
+text-align: center;
+font-family: sans-serif;
+font-size: 26px;
+margin-top: -3px;
+}
+section#socialmedia p {
+color: darkslategray;
+text-align: justify;
+padding: 3px 3px 5px 5px; 
+background-color: white;
+font-weight: bold;
+font-size: 16px;
+}
+section#socialmedia .box3 a {
+width: 37px;
+height: 37px;
+display: inline-block;
+text-align: center;
+}
+section#socialmedia .box3 a:nth-child(1) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: blue;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(2) {
+border: 1px solid blue;
+border-radius: 50%;
+background-color: black;
+margin-right: 20px;
+}
+section#socialmedia .box3 a:nth-child(3) {
+border: 1px solid red;
+background-color: red;
+color: white;
+margin-right: 20px;
+}
+section#socialmedia a i {
+line-height: 51px;
+font-size: 34.1px;
+}
+section#menus {
+width: 100%;
+height: 597px;
+background: url(../image/agriculture-color-cooking-255501.jpg) no-repeat center;
+background-size: cover;
+position: relative;
+}
+section#menus .box5 {
+width: 73%;
+height: 70px;
+position: absolute;
+top: 37%;
+left: 26.5%;
+background: white;
+padding: 7px 0 15px 7px;
+}
+section#menus .menusdiscover {
+width: 100%;
+height: 57px;
+box-sizing: border-box;
+border: 5px solid brown;
+padding: 15px;
+}
+section#menus .menusdiscover h3 {
+margin-top: -7px;
+text-transform: uppercase;
+color: brown;
+font-weight: bold;
+font-size: 25px;
+padding: 0px;
+}
+section#ingredients {
+width: 100%;
+height: 590px;
+position: relative;
+}
+section#ingredients .mouse {
+width: 50%;
+height: 579px;
+position: absolute;
+right: 61%;
+background: url(../image/spices-ge2f6461be_1920.jpg) no-repeat center;
+background-size: cover;
+margin-top: 25px;
+margin-bottom: 25px;
+}
+section#ingredients .box7 {
+width: 205px;
+height: 350px;
+position: absolute;
+top: 25px;
+left: 157px;
+}
+section#ingredients .box7 h3 {
+color: brown;
+text-transform: uppercase;
+font-size: 25px;
+font-family: sans-serif;
+font-weight: bold;
+}
+section#ingredients .box7 h5 {
+color: green;
+font-size: 20px;
+margin-top: -10.5px;
+}
+section#ingredients .box7 p {
+margin: 26px 26px 26px 0;
+text-align: justify;
+}
+section#gllery {
+width: 100%;
+height: 800px;
+position: relative;
+}
+
+section#gallery h3 {
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-size: 42px;
+font-weight: bold;
+margin-top: 57px;
+color: brown;
+}
+section#gallery h5 {
+text-align: center;
+font-family: sans-serif;
+font-size: 35.5px;
+margin-top: -10px;
+margin-left: 0;
+margin-right: 10px;
+color: lightgreen;
+}
+section#gallery .board1 {
+width: 100%;
+height: 250px;
+margin-left: 5px;
+}
+section#gallery .board2 {
+width: 100%;
+height: 125px;
+}
+section#gallery .board2 img {
+width: 32%;
+height: 125px;
+}
+section#gallery .board3 {
+width: 100%;
+height: 125px;
+}
+section#gallery .board3 img {
+width: 32%;
+height: 125px;
+margin-bottom: 7px;
+margin-top: 5px;
+background-size: cover;
+}
+section#contacts {
+width: 100%;
+height: 750px;
+position: relative;
+}
+section#contacts h3 {
+color: brown;
+text-align: center;
+font-size: 42px;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-top: 57px;
+}
+section#contacts h5 {
+color: lightgreen;
+text-align: center;
+font-size: 34.1px;
+font-family: sans-serif;
+margin-top: -10px;
+}
+section#contacts .bat {
+width: 100%;
+height: 591px;
+background-color: lavender;
+}
+section#contacts .bat p {
+width: 320px;
+position: absolute;
+top: 125px;
+left: 5px;
+border: 8px solid black;
+padding: 20px;
+font-weight: bold;
+background-color: white;
+}
+section#contacts .bat form {
+width: 325px;
+height: 351px;
+position: absolute;
+top: 293px;
+background-color: cadetblue;
+left: 5px;
+padding-left: 25px;
+padding-top: 20px;
+padding-bottom: 25px;
+padding-right: 20px;
+}
+section#contacts .bat form input[value='Submit'] {
+margin-left: 105px;
+margin-top: 20px;
+font-weight: bold;
+}
+section#contacts .bat form label[for='fname'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='lname'] {
+margin-left: 73px;
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='email'] {
+color: white;
+font-weight: bold;
+}
+section#contacts .bat form label[for='message'] {
+color: white;
+font-weight: bold;
+margin-right: 5px;
+}
+section#contacts .bat form input[name='fname'] {
+width: 112px;
+}
+section#contacts .bat form input[name='lname'] {
+width: 112px;
+margin-left: 37px;
+}
+section#contacts .bat form input[name='email'] {
+width: 95%;
+}
+section#contacts .bat form textarea[type='message'] {
+width: 95%;
+height: 59px;
+}
+section#googlemap {
+width: 100%;
+height: 571px;
+position: relative;                
+}
+section#googlemap h3 {
+color: brown;
+text-align: center;
+text-transform: uppercase;
+font-family: sans-serif;
+font-weight: bold;
+margin-bottom: 20px;
+font-size: 39px;
+opacity: 1;
+}
+section#googlemap .top {
+width: 100%;
+height: 509px;
+background: url(../image/google@2x.png);
+background-size: cover;
+background-position: center center;
+margin-bottom: 8.1px
+}
+footer {
+width: 100%;
+height: 100px;
+margin-top: 3px;
+margin-left: 0.5px;
+background-color: brown;
+}
+footer h3 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+margin-top: 9px;
+}
+footer h5 {
+font-family: sans-serif;
+font-weight: bold;
+text-transform: capitalize;
+font-size: 18px;
+color: white;
+padding-top: 0;
+display: block;
+} 
+#popups {
+position: fixed;
+top: 0;
+left: 0;
+width: 100%;
+height: 750px;
+background-color: black;
+filter:alpha(opacity=70);
+-moz-opacity:0.7;
+-khtml-opacity: 0.7;
+opacity: 0.7;
+z-index: 100;
+display: none;
+}
+.bat {
+   padding: 14px 10px;
+   line-height: 1.5;
+}
+
+.popup {
+margin: 0 auto;
+display: none;
+position: fixed;
+z-index: 101;
+top: 50%;
+left: 50%;
+margin-top: -300px;
+margin-left: -300px;
+}
+.popup-images {
+width: 600px;
+height: 750px;
+position: relative;
+z-index: 103;
+padding: 15px 35px;
+border-radius: 5px;
+
+}
+.popup-images img{
+width: 50%;
+height: 250px;
+display: block;
+position: relative;
+top: 37px;
+left: 125px;
+
+}
+.popup-images h3 {
+width: 500px;
+height: 250px;
+position: relative;
+top: 50px;
+left: 90px;
+font-weight: bold;
+color: white;
+font-size: 20px;
+}
+.popup-images a:nth-child(1) {
+text-decoration: none;
+position: absolute;
+top: 7%;;
+left: 73%;
+color: lightgreen;
+font-weight: bold;
+
+}
+
+.popup-images img:hover{
+cursor: pointer;
+} 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.menuItem {
+  display: block;
+  margin: 2rem 4rem;
+  font-size: 1.3rem;
+  color: black;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.menuItem:hover {
+  text-decoration: underline;
+}
+
+.burger {
+  position: fixed;
+  z-index: 100;
+  top: 1rem;
+  right: 1rem;
+  padding: 4px;
+  border: black solid 1px;
+  background: white;
+  cursor: pointer;
+  display: block;
+}
+
+.closeIcon {
+  display: none;
+}
+
+.menus {
+  position: fixed;
+  transform: translateY(-100%);
+  transition: transform 0.2s;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 359px;
+  z-index: 99;
+  background: white;
+  color: white;
+  list-style: none;
+  padding-top: 1rem;
+  display: block;
+}
+
+.showMenus {
+  transform: translateY(0);
+  display: block;
+}
+
+
+}      
+
+
