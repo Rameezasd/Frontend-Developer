@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Frontend Developer</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/font-awesome.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<script src="https://code.jquery.com/jquery-1.8.2.js"></script>
+</head>
+<body>
+
+<ul class="menus">
+ <li><a class="menuItem" href="#aboutu">About</a></li>
+ <li><a class="menuItem" href="#socialmedia">Press</a></li>
+ <li><a class="menuItem" href="#menus">Menus</a></li>
+ <li><a class="menuItem" href="#gallery">Gallery</a></li>
+ <li><a class="menuItem" href="#contacts">Contacts</a></li>
+</ul>
+<button class="burger">
+<i class="menuIcon material-icons">menu</i>
+<i class="closeIcon material-icons">close</i>
+</button>
+<script type="text/javascript" src="jquery/script.js"></script>
+
+
+<header>
+
+<div class="digital">
+<div class="logo">
+<img src="image/logo.jpg" alt"">
+</div>
+<nav>
+<ul>
+<li>
+<a href="#aboutu">about us</a>
+</li>
+<li>
+<a href="#socialmedia">press</a>
+</li>
+<li>
+<a href="#menus">menu</a>
+</li>
+<li>
+<a href="#gallery">gallery</a>
+</li>
+<li>
+<a href="#contacts">contacts</a>
+</li>
+</ul>
+</nav>
+</div>
+<div class="box">
+<h1>your <span class="underline">everyday</span> palace</h1>
+</div>
+
+</header>
+<script>
+$(function(){
+var popups = $('<div id="popups"></div>');
+popups.show();
+popups.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+popups.appendTo(document.body).remove();
+return false;
+});
+
+$('.x').click(function(){
+$('.popup').hide();
+popups.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<div class='popup'>
+<div class='popup-images'>
+
+<div class="bat">
+<a href="" class='close'>x</a>
+ <a href="https://drive.google.com/file/d/1gLOY6_F1QFSaFCv6fod-qFaT5sMuJIH6/view?usp=drive_link" rel=""><img src="image/net.jpg" alt""></img></a>
+<h3>CLICK ON IMAGE TO VIEW FULL CV</h3>
+
+</div>
+</div>
+</div>
+
+<section id="aboutu">
+<div class="col-md-12">
+<div class=box1>
+<h3>about us</h3>
+<h5>who we are</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<a href="">more detail</a>
+</div>
+
+</div>
+</section>
+<section id="image">
+<div class="box3">
+<h1>your <span class="underline1">everyday</span> palace</h1>
+</div>
+</section>
+<section id="socialmedia">
+<div class="box3">
+<h3>social media</h3>
+<h5>follow me</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+<div class="social">
+<a href=""><i class="fa fa-facebook"></i></a>
+<a href=""><i class="fa fa-twitter"></i></a>
+<a href=""><i class="fa fa-youtube"></i></a>
+</div>
+</div>
+</section>
+<section id="menus">
+<div class="box5">
+<div class="menusdiscover">
+<h3>menu</h3>
+
+</div>
+</div>
+</section>
+<section id="ingredients">
+<div class="mouse">
+</div>
+<div class="box7">
+<h3>ingredients</h3>
+<h5>handpicked with love</h5>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+</div>
+</section>
+<section id="gallery">
+<div>
+<h3>gallery</h3>
+<h5>dilicious food</h5>
+
+
+
+</div>
+<div class="board1">
+<div class="board2">
+<img src="image/salad-gc6ecb20f2_1920.jpg" alt"">
+<img src="image/chicken-g274a1ce4d_1920.jpg" alt"">
+<img src="image/adventure-alps-climb-1020010.png" alt"">
+</div>
+<div class="board3">
+<img src="image/meat-g674dce54f_1920.jpg" alt"">
+<img src="image/cookie-g7fc43e8d0_1920.jpg" alt"">
+<img src="image/cake-g737343bde_1920.jpg" alt"">
+</div>
+</div>
+
+</section>
+<section id="contacts">
+<h3>contact us</h3>
+<h5>find me</h5>
+<div class="bat">
+<p>
+Name: John Dike <br>
+Phone: +12345678 <br>
+Email: john@examples.com
+</p>
+<form>
+<label for="fname">First Name</label>
+<label for="lname">Last Name</label>
+<br>
+<input type="text" id="fname" name="fname">
+<input type="text" id="lname" name="lname">
+<br>
+<br>
+<label for="email">Email</label>
+<br>
+<input type="text" id="email" name="email">
+<br>
+<br>
+<label for="message">Message</label>
+<br>
+<textarea type="message" row="3" col="8"></textarea>
+<br>
+<input type="submit" value="Submit">
+</form>
+</div>
+
+</section>
+<section id="googlemap">
+<h3>location</h3>
+<div class="top">
+</div>
+</section>
+<footer>
+<div class="row">
+<div class="container">
+<div class="col-md-6">
+<h3>all rights reserved 2019 computing experts</h3>
+</div>
+<div class="col-md-6">
+<h5 class="pull-rights">computing experts</h5>
+</div>
+</div>
+</div>
+    </footer>
+</body>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                            
+</html>
